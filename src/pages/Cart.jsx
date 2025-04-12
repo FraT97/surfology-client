@@ -60,9 +60,7 @@ const Cart = () => {
                   </>
                 )}
                
-                {(!productData || !productData.image || productData.image.length === 0) && (
-                  <div className="text-sm text-gray-500">Image not available</div>
-                )}
+               
               </div>
               <input
                 className='border max-w-10 sm:max-w-20 px-1 sm:px-2 py-1'

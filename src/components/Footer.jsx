@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <div className='flex flex-col sm:flex-row justify-around gap-12 sm:gap-2 text-center py-20 text-xs sm:text-sm md:text-base text-gray-700'>
 <div >
-<img src={assets.Logo} className='mb-5 w-32' alt="" />
+<img src={assets.Logo} className="w-30 h-30 rounded-full" alt="" />
 </div>
 <div>
   <p className='text-xl font-medium mb-5'> COMPANY</p>
